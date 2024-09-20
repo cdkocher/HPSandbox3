@@ -1,0 +1,421 @@
+
+#--------------Reading non-default Config.py file...--------------#
+Configuration parameters from new5-enumerate.conf:
+
+HPSTRING                       'HHPPHH'
+INITIALVEC                     [0, 0, 0, 0, 0]
+randseed                       345
+eps                            -5.0
+RESTRAINED_STATE               []
+KSPRING                        0.0
+NREPLICAS                      1
+REPLICATEMPS                   [300.0]
+MCSTEPS                        500000
+SWAPEVERY                      500000
+SWAPMETHOD                     'random pair'
+MOVESET                        'MS2'
+EXPDIR                         './enumerate_data'
+PRINTEVERY                     100
+TRJEVERY                       100
+ENEEVERY                       100
+NATIVEDIR                      '/home/charles/stonybrook/hp-code/nativedir'
+STOPATNATIVE                   1
+	Initializing Chain.py object...
+	creating Monty.py object....
+New max, 1 contacts, config  [0, 0, 1, 2, 1]
+New max, 2 contacts, config  [0, 0, 1, 2, 2]
+
+DENSITY of CONTACT STATES:
+contact state                            number of conformations
+[]                                       30
+[(1, 4)]                                 3
+[(0, 5), (1, 4)]                         1
+[(0, 5)]                                 2
+
+DENSITY of STATES (in energies/contacts):
+number of contacts   energy (kT)          number of conformations
+0                    0                    30
+1                    -5                   5
+2                    -10                  1
+
+at T = 300.0 K
+
+Example conformation vector with 2 contacts: [0, 0, 1, 2, 2]
+NOTE on conformation vectors: 0 = north, 1 = west, 2 = south, 3 = east.
+
+Here is a structure with this conformation vector.
+c denotes a contact.
+
+Coordinates for sequence HHPPHH:
+[(0, 0), (0, 1), (0, 2), (1, 2), (1, 1), (1, 0)]
+
+P-P
+| |
+HcH
+| |
+HcH
+
+Using -full option, now printing all unique structures
+
+Now printing states with number of contacts = 0
+
+(1) Coordinates:
+[(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5)]
+
+H
+|
+H
+|
+P
+|
+P
+|
+H
+|
+H
+
+(2) Coordinates:
+[(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (1, 4)]
+
+H-H
+  |
+  P
+  |
+  P
+  |
+  H
+  |
+  H
+
+(3) Coordinates:
+[(0, 0), (0, 1), (0, 2), (0, 3), (1, 3), (1, 4)]
+
+H  
+|  
+H-P
+  |
+  P
+  |
+  H
+  |
+  H
+
+(4) Coordinates:
+[(0, 0), (0, 1), (0, 2), (0, 3), (1, 3), (2, 3)]
+
+H-H-P
+    |
+    P
+    |
+    H
+    |
+    H
+
+(5) Coordinates:
+[(0, 0), (0, 1), (0, 2), (0, 3), (1, 3), (1, 2)]
+
+H-P
+| |
+H P
+  |
+  H
+  |
+  H
+
+(6) Coordinates:
+[(0, 0), (0, 1), (0, 2), (1, 2), (1, 3), (1, 4)]
+
+H  
+|  
+H  
+|  
+P-P
+  |
+  H
+  |
+  H
+
+(7) Coordinates:
+[(0, 0), (0, 1), (0, 2), (1, 2), (1, 3), (2, 3)]
+
+H-H  
+  |  
+  P-P
+    |
+    H
+    |
+    H
+
+(8) Coordinates:
+[(0, 0), (0, 1), (0, 2), (1, 2), (1, 3), (0, 3)]
+
+H-H  
+|    
+P-P  
+  |  
+  H  
+  |  
+  H  
+
+(9) Coordinates:
+[(0, 0), (0, 1), (0, 2), (1, 2), (2, 2), (2, 3)]
+
+H    
+|    
+H-P-P
+    |
+    H
+    |
+    H
+
+(10) Coordinates:
+[(0, 0), (0, 1), (0, 2), (1, 2), (2, 2), (3, 2)]
+
+H-H-P-P
+      |
+      H
+      |
+      H
+
+(11) Coordinates:
+[(0, 0), (0, 1), (0, 2), (1, 2), (2, 2), (2, 1)]
+
+H-P-P
+|   |
+H   H
+    |
+    H
+
+(12) Coordinates:
+[(0, 0), (0, 1), (1, 1), (1, 2), (1, 3), (1, 4)]
+
+H  
+|  
+H  
+|  
+P  
+|  
+P-H
+  |
+  H
+
+(13) Coordinates:
+[(0, 0), (0, 1), (1, 1), (1, 2), (1, 3), (2, 3)]
+
+H-H  
+  |  
+  P  
+  |  
+  P-H
+    |
+    H
+
+(14) Coordinates:
+[(0, 0), (0, 1), (1, 1), (1, 2), (1, 3), (0, 3)]
+
+H-H  
+|    
+P    
+|    
+P-H  
+  |  
+  H  
+
+(15) Coordinates:
+[(0, 0), (0, 1), (1, 1), (1, 2), (2, 2), (2, 3)]
+
+H    
+|    
+H-P  
+  |  
+  P-H
+    |
+    H
+
+(16) Coordinates:
+[(0, 0), (0, 1), (1, 1), (1, 2), (2, 2), (3, 2)]
+
+H-H-P  
+    |  
+    P-H
+      |
+      H
+
+(17) Coordinates:
+[(0, 0), (0, 1), (1, 1), (1, 2), (2, 2), (2, 1)]
+
+H-P  
+| |  
+H P-H
+    |
+    H
+
+(18) Coordinates:
+[(0, 0), (0, 1), (1, 1), (2, 1), (2, 2), (2, 3)]
+
+H    
+|    
+H    
+|    
+P-P-H
+    |
+    H
+
+(19) Coordinates:
+[(0, 0), (0, 1), (1, 1), (2, 1), (2, 2), (3, 2)]
+
+H-H    
+  |    
+  P-P-H
+      |
+      H
+
+(20) Coordinates:
+[(0, 0), (0, 1), (1, 1), (2, 1), (2, 2), (1, 2)]
+
+H-H    
+|      
+P-P-H  
+    |  
+    H  
+
+(21) Coordinates:
+[(0, 0), (0, 1), (1, 1), (2, 1), (3, 1), (3, 2)]
+
+H      
+|      
+H-P-P-H
+      |
+      H
+
+(22) Coordinates:
+[(0, 0), (0, 1), (1, 1), (2, 1), (3, 1), (4, 1)]
+
+H-H-P-P-H
+        |
+        H
+
+(23) Coordinates:
+[(0, 0), (0, 1), (1, 1), (2, 1), (3, 1), (3, 0)]
+
+H-P-P-H
+|     |
+H     H
+
+(24) Coordinates:
+[(0, 0), (0, 1), (1, 1), (2, 1), (2, 0), (3, 0)]
+
+  P-P-H
+  |   |
+H-H   H
+
+(25) Coordinates:
+[(0, 0), (0, 1), (1, 1), (2, 1), (2, 0), (2, -1)]
+
+P-P-H
+|   |
+H   H
+|    
+H    
+
+(26) Coordinates:
+[(0, 0), (0, 1), (1, 1), (1, 0), (2, 0), (2, 1)]
+
+H P-H
+| | |
+H-P H
+
+(27) Coordinates:
+[(0, 0), (0, 1), (1, 1), (1, 0), (2, 0), (3, 0)]
+
+    P-H
+    | |
+H-H-P H
+
+(28) Coordinates:
+[(0, 0), (0, 1), (1, 1), (1, 0), (2, 0), (2, -1)]
+
+  P-H
+  | |
+H-P H
+|    
+H    
+
+(29) Coordinates:
+[(0, 0), (0, 1), (1, 1), (1, 0), (1, -1), (2, -1)]
+
+  P-H
+  | |
+  P H
+  |  
+H-H  
+
+(30) Coordinates:
+[(0, 0), (0, 1), (1, 1), (1, 0), (1, -1), (1, -2)]
+
+P-H
+| |
+P H
+|  
+H  
+|  
+H  
+
+Now printing states with number of contacts = 1
+
+(1) Coordinates:
+[(0, 0), (0, 1), (0, 2), (1, 2), (1, 1), (2, 1)]
+
+  P-P
+  | |
+H-HcH
+    |
+    H
+
+(2) Coordinates:
+[(0, 0), (0, 1), (1, 1), (1, 2), (0, 2), (0, 3)]
+
+  H  
+  |  
+P-H  
+| c  
+P-H  
+  |  
+  H  
+
+(3) Coordinates:
+[(0, 0), (0, 1), (1, 1), (1, 2), (0, 2), (-1, 2)]
+
+P-H-H  
+| c    
+P-H    
+  |    
+  H    
+
+(4) Coordinates:
+[(0, 0), (0, 1), (1, 1), (2, 1), (2, 0), (1, 0)]
+
+P-P-H  
+|   |  
+H-HcH  
+
+(5) Coordinates:
+[(0, 0), (0, 1), (1, 1), (1, 0), (1, -1), (0, -1)]
+
+P-H  
+| |  
+P H  
+| c  
+H-H  
+
+Now printing states with number of contacts = 2
+
+(1) Coordinates:
+[(0, 0), (0, 1), (0, 2), (1, 2), (1, 1), (1, 0)]
+
+P-P
+| |
+HcH
+| |
+HcH
+
